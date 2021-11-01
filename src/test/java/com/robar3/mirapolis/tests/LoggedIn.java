@@ -8,8 +8,8 @@ import org.junit.Test;
 public class LoggedIn {
 
     private String login="fominaelena";
-    private String password="1P73BP4Z";
 
+    public String password = System.getenv("PassOne");
     AuthorisationPage authPage = new AuthorisationPage();
     MainPage mainPage = new MainPage();
 
